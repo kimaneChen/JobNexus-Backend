@@ -1,6 +1,6 @@
 # netcore-boilerplate
 
-Boilerplate of API in ~~`.NET Core 3.1`~~ `.NET 7`
+Boilerplate of API in `.NET 7`
 
 | GitHub        | Codecov       |
 |:-------------:|:-------------:|
@@ -197,20 +197,3 @@ Run `dotnet test` command in the root directory, it will look for test projects 
 ## To Do
 
 * any idea? Please create an issue.
-
-## Be like a star, give me a star! :star:
-
-If:
-
-* you like this repo/code,
-* you learn something,
-* you are using it in your project/application,
-
-then please give me a `star`, appreciate my work. Thanks!
-
-## Buy me a coffee! :coffee:
-
-[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/lato-blue.png)](https://www.buymeacoffee.com/lkurzyniec)
-
-[FluentAssertions]: https://fluentassertions.com/
-[xUnit]: https://xunit.net/

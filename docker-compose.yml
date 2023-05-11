@@ -22,15 +22,16 @@ services:
       - ./db/mysql/mysql-employees.sql:/docker-entrypoint-initdb.d/init.sql
 
   mssql:
-    image: mcr.microsoft.com/mssql/server:2019-latest
+    image: mcr.microsoft.com/azure-sql-edge
     user: root
     container_name: mssql
+    platform: linux/arm64/v8
     command: /bin/bash /entrypoint.sh
     ports:
       - 1433:1433
     environment:
       - ACCEPT_EULA=Y
-      - MSSQL_PID=Express
+      - MSSQL_PID=Developer
       - MSSQL_SA_PASSWORD=SomeStrongPwd123
     volumes:
       - dbdata:/var/opt/mssql/data
@@ -44,7 +45,7 @@ services:
     build:
       context: .
     ports:
-      - 5000:80
+      - 5001:80
     depends_on:
       - mysql
       - mssql
