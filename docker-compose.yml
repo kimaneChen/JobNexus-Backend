@@ -39,7 +39,7 @@ services:
       - ./db/mssql/docker-db-init.sh:/db-init.sh
       - ./db/mssql/mssql-cars.sql:/db-init.sql
 
-  netcore-boilerplate:
+  jobnuxus:
     image: netcore-boilerplate:local
     container_name: netcore-boilerplate
     build:
