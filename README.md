@@ -1,13 +1,12 @@
-# netcore-boilerplate
+# JobNexus-API
 
-Boilerplate of API in `.NET 7`
+Job Publish and Seek API in `.NET 7`
 
 | GitHub        | Codecov       |
 |:-------------:|:-------------:|
-| [![GitHub Build Status](https://github.com/lkurzyniec/netcore-boilerplate/workflows/Build%20%26%20Test/badge.svg)](https://github.com/lkurzyniec/netcore-boilerplate/actions) | [![codecov](https://codecov.io/gh/lkurzyniec/netcore-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/lkurzyniec/netcore-boilerplate) |
+| [![Build & Test](https://github.com/kimaneChen/JobNexus-Backend/actions/workflows/dotnetcore.yml/badge.svg?branch=master)](https://github.com/kimaneChen/JobNexus-Backend/actions/workflows/dotnetcore.yml) | [![codecov](https://codecov.io/gh/lkurzyniec/netcore-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/lkurzyniec/netcore-boilerplate) |
 
-Boilerplate is a piece of code that helps you to quickly kick-off a project or start writing your source code. It is kind of a template - instead
-of starting an empty project and adding the same snippets each time, you can use the boilerplate that already contains such code.
+This API is built based on [.Net Boilerplate](https://github.com/lkurzyniec/netcore-boilerplate). ThanksŁukasz Kurzyniec. The Api provides the backend solutions for a Job publish and Job Seek platform.  
 
 ## Source code contains
 
