@@ -11,14 +11,13 @@ The Api provides the backend solutions for a Job publish and Job Seek platform. 
 ## Source code contains
 
 1. [Central Package Management (CPM)](https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management)
-1. ~~[Autofac]~~(https://autofac.org/) (Removed in [PR19](https://github.com/lkurzyniec/netcore-boilerplate/pull/19))
-1. [Swagger](https://swagger.io/) + [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle)
-1. [FeatureManagement](https://github.com/microsoft/FeatureManagement-Dotnet) (Feature Flags, Feature Toggles)
-1. [HealthChecks](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)
-1. [EF Core](https://docs.microsoft.com/ef/)
+2. [Swagger](https://swagger.io/) + [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle)
+3. [FeatureManagement](https://github.com/microsoft/FeatureManagement-Dotnet) (Feature Flags, Feature Toggles)
+4. [HealthChecks](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)
+5. [EF Core](https://docs.microsoft.com/ef/)
     * [MySQL provider from Pomelo Foundation](https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql)
     * [MsSQL from Microsoft](https://github.com/aspnet/EntityFrameworkCore/)
-1. Tests
+6. Tests
     * Integration tests with InMemory database
         * [FluentAssertions]
         * [xUnit]
@@ -33,9 +32,7 @@ The Api provides the backend solutions for a Job publish and Job Seek platform. 
     * Architectural tests (conventional tests)
         * [NetArchTest](https://github.com/BenMorris/NetArchTest)
         * [xUnit]
-    * ~~Load tests~~ (Removed in [PR135](https://github.com/lkurzyniec/netcore-boilerplate/pull/135))
-        * ~~[NBomber]~~(https://nbomber.com/)
-1. Code quality
+7. Code quality
     * [EditorConfig](https://editorconfig.org/) ([.editorconfig](.editorconfig))
     * Analizers
         * [Microsoft.CodeAnalysis.Analyzers](https://github.com/dotnet/roslyn-analyzers)
@@ -46,17 +43,17 @@ The Api provides the backend solutions for a Job publish and Job Seek platform. 
         * [Coverlet](https://github.com/tonerdo/coverlet)
         * [Codecov](https://codecov.io/)
     * CI Code analysis with [CodeQL](https://codeql.github.com/)
-1. Docker
+8. Docker
     * [Dockerfile](dockerfile)
     * [Docker-compose](docker-compose.yml)
         * `mysql:8` with DB initialization
-        * `mcr.microsoft.com/mssql/server:2017-latest` with DB initialization
+        * `mcr.microsoft.com/azure-sql-edge` with DB initialization
         * `netcore-boilerplate:local`
-1. [Serilog](https://serilog.net/)
+9. [Serilog](https://serilog.net/)
     * Sink: [Async](https://github.com/serilog/serilog-sinks-async)
-1. [DbUp](http://dbup.github.io/) as a db migration tool
-1. Continuous integration
-    * ~~[Travis CI]~~(https://travis-ci.org/) ([travisci.yml](https://github.com/lkurzyniec/netcore-boilerplate/blob/bf65154b63f6a10d6753045c49cd378e53907816/.travis.yml))
+10. [DbUp](http://dbup.github.io/) as a db migration tool
+11. Continuous integration
+    * [Travis CI](https://travis-ci.org/) ([travisci.yml](./.travis.yml)) Some things not very clear
     * [GitHub Actions](https://github.com/features/actions)
         * [dotnetcore.yml](.github/workflows/dotnetcore.yml)
         * [codeql-analysis.yml](.github/workflows/codeql-analysis.yml)
