@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Hosting;
 using Xunit;
 
-namespace HappyCode.NetCoreBoilerplate.Api.IntegrationTests.Infrastructure
+namespace HappyCode.JobNexus.Api.IntegrationTests.Infrastructure
 {
     public class TestServerClientFixture
     {

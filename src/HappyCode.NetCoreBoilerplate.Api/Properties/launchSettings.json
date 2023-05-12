@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "HappyCode.NetCoreBoilerplate.Api": {
+    "HappyCode.JobNexus.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

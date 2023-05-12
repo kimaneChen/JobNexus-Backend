@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using FluentAssertions;
-using HappyCode.NetCoreBoilerplate.Api.Infrastructure.Configurations;
-using HappyCode.NetCoreBoilerplate.Api.Infrastructure.Filters;
-using HappyCode.NetCoreBoilerplate.Core;
+using HappyCode.JobNexus.Api.Infrastructure.Configurations;
+using HappyCode.JobNexus.Api.Infrastructure.Filters;
+using HappyCode.JobNexus.Core;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Abstractions;
@@ -14,7 +14,7 @@ using Microsoft.FeatureManagement;
 using Moq;
 using Xunit;
 
-namespace HappyCode.NetCoreBoilerplate.Api.UnitTests.Infrastructure.Filters
+namespace HappyCode.JobNexus.Api.UnitTests.Infrastructure.Filters
 {
     public class ApiKeyAuthorizationFilterTests
     {

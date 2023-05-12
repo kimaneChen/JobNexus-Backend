@@ -1,4 +1,4 @@
-namespace HappyCode.NetCoreBoilerplate.Core.Settings
+namespace HappyCode.JobNexus.Core.Settings
 {
     public class PingWebsiteSettings
     {

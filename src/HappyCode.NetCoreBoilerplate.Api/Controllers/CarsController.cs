@@ -1,11 +1,11 @@
-using HappyCode.NetCoreBoilerplate.Core;
-using HappyCode.NetCoreBoilerplate.Core.Dtos;
-using HappyCode.NetCoreBoilerplate.Core.Services;
+using HappyCode.JobNexus.Core;
+using HappyCode.JobNexus.Core.Dtos;
+using HappyCode.JobNexus.Core.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.FeatureManagement.Mvc;
 
-namespace HappyCode.NetCoreBoilerplate.Api.Controllers
+namespace HappyCode.JobNexus.Api.Controllers
 {
     [Route("api/cars")]
     public class CarsController : ApiControllerBase

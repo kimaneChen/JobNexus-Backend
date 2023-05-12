@@ -3,10 +3,10 @@ using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using DbUp;
-using HappyCode.NetCoreBoilerplate.Db.Options;
+using HappyCode.JobNexus.Db.Options;
 using Microsoft.Extensions.Configuration;
 
-namespace HappyCode.NetCoreBoilerplate.Db
+namespace HappyCode.JobNexus.Db
 {
     class Program
     {

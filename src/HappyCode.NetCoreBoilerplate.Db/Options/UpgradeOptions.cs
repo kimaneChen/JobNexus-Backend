@@ -1,4 +1,4 @@
-namespace HappyCode.NetCoreBoilerplate.Db.Options
+namespace HappyCode.JobNexus.Db.Options
 {
     public class UpgradeOptions
     {

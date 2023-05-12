@@ -1,10 +1,10 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using HappyCode.NetCoreBoilerplate.Core.Dtos;
+using HappyCode.JobNexus.Core.Dtos;
 using Microsoft.EntityFrameworkCore;
 
-namespace HappyCode.NetCoreBoilerplate.Core.Services
+namespace HappyCode.JobNexus.Core.Services
 {
     public interface ICarService
     {

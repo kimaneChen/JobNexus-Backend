@@ -3,17 +3,17 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoFixture.Xunit2;
 using FluentAssertions;
-using HappyCode.NetCoreBoilerplate.Api.Controllers;
-using HappyCode.NetCoreBoilerplate.Core;
-using HappyCode.NetCoreBoilerplate.Core.Dtos;
-using HappyCode.NetCoreBoilerplate.Core.Repositories;
+using HappyCode.JobNexus.Api.Controllers;
+using HappyCode.JobNexus.Core;
+using HappyCode.JobNexus.Core.Dtos;
+using HappyCode.JobNexus.Core.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.FeatureManagement;
 using Moq;
 using Xunit;
 
-namespace HappyCode.NetCoreBoilerplate.Api.UnitTests.Controllers
+namespace HappyCode.JobNexus.Api.UnitTests.Controllers
 {
     public class EmployeesControllerTests : ControllerTestsBase<EmployeesController>
     {

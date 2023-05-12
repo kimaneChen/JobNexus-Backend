@@ -16,8 +16,8 @@ jobs:
     - stage: "Build & Test"
       name: "Build & Test"
       script:
-        - dotnet build -c Release --no-cache ./HappyCode.NetCoreBoilerplate.sln
-        - dotnet test -c Release --no-build --filter FullyQualifiedName!~LoadTests ./HappyCode.NetCoreBoilerplate.sln
+        - dotnet build -c Release --no-cache ./HappyCode.JobNexus.sln
+        - dotnet test -c Release --no-build --filter FullyQualifiedName!~LoadTests ./HappyCode.JobNexus.sln
 
     - stage: "Code Coverage"
       name: "Code Coverage"

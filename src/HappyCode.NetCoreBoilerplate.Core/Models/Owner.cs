@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace HappyCode.NetCoreBoilerplate.Core.Models
+namespace HappyCode.JobNexus.Core.Models
 {
     public partial class Owner
     {

@@ -1,13 +1,13 @@
 using System.Linq;
 using System.Text.RegularExpressions;
-using HappyCode.NetCoreBoilerplate.Api.Infrastructure.Configurations;
-using HappyCode.NetCoreBoilerplate.Core;
+using HappyCode.JobNexus.Api.Infrastructure.Configurations;
+using HappyCode.JobNexus.Core;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Options;
 using Microsoft.FeatureManagement;
 
-namespace HappyCode.NetCoreBoilerplate.Api.Infrastructure.Filters
+namespace HappyCode.JobNexus.Api.Infrastructure.Filters
 {
     public class ApiKeyAuthorizationFilter : IAsyncAuthorizationFilter
     {

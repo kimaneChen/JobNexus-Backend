@@ -1,8 +1,8 @@
-using HappyCode.NetCoreBoilerplate.Api.Controllers;
+using HappyCode.JobNexus.Api.Controllers;
 using Microsoft.AspNetCore.Http;
 using Moq.AutoMock;
 
-namespace HappyCode.NetCoreBoilerplate.Api.UnitTests.Controllers
+namespace HappyCode.JobNexus.Api.UnitTests.Controllers
 {
     public abstract class ControllerTestsBase<T>
         where T : ApiControllerBase

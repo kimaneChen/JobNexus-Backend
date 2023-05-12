@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace HappyCode.NetCoreBoilerplate.Core.Models
+namespace HappyCode.JobNexus.Core.Models
 {
     [Table("employees", Schema = "employees")]
     public class Employee

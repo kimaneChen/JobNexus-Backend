@@ -1,10 +1,10 @@
 using System.Net.Http;
-using HappyCode.NetCoreBoilerplate.Core.Settings;
+using HappyCode.JobNexus.Core.Settings;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace HappyCode.NetCoreBoilerplate.Api.BackgroundServices
+namespace HappyCode.JobNexus.Api.BackgroundServices
 {
     public class PingWebsiteBackgroundService : BackgroundService
     {

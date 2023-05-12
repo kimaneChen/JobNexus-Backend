@@ -13,6 +13,6 @@
   <PropertyGroup>
     <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
     <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
-    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)HappyCode.NetCoreBoilerplate.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)HappyCode.JobNexus.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 </Project>

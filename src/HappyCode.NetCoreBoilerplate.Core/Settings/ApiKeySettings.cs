@@ -1,4 +1,4 @@
-namespace HappyCode.NetCoreBoilerplate.Api.Infrastructure.Configurations
+namespace HappyCode.JobNexus.Api.Infrastructure.Configurations
 {
     public class ApiKeySettings
     {

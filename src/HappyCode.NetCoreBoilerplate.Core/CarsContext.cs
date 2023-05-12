@@ -1,7 +1,7 @@
-using HappyCode.NetCoreBoilerplate.Core.Models;
+using HappyCode.JobNexus.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace HappyCode.NetCoreBoilerplate.Core
+namespace HappyCode.JobNexus.Core
 {
     public partial class CarsContext : DbContext
     {

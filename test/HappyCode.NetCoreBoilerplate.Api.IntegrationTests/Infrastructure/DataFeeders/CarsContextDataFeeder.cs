@@ -1,7 +1,7 @@
-using HappyCode.NetCoreBoilerplate.Core;
-using HappyCode.NetCoreBoilerplate.Core.Models;
+using HappyCode.JobNexus.Core;
+using HappyCode.JobNexus.Core.Models;
 
-namespace HappyCode.NetCoreBoilerplate.Api.IntegrationTests.Infrastructure.DataFeeders
+namespace HappyCode.JobNexus.Api.IntegrationTests.Infrastructure.DataFeeders
 {
     public class CarsContextDataFeeder
     {

@@ -1,5 +1,5 @@
-using HappyCode.NetCoreBoilerplate.Api;
-using HappyCode.NetCoreBoilerplate.Api.Infrastructure.Configurations;
+using HappyCode.JobNexus.Api;
+using HappyCode.JobNexus.Api.Infrastructure.Configurations;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Serilog;

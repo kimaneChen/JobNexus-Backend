@@ -1,7 +1,7 @@
-using HappyCode.NetCoreBoilerplate.Core.Dtos;
-using HappyCode.NetCoreBoilerplate.Core.Models;
+using HappyCode.JobNexus.Core.Dtos;
+using HappyCode.JobNexus.Core.Models;
 
-namespace HappyCode.NetCoreBoilerplate.Core.Extensions
+namespace HappyCode.JobNexus.Core.Extensions
 {
     internal static class EmployeeExtensions
     {

@@ -27,6 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HappyCode.NetCoreBoilerplate.Core\HappyCode.NetCoreBoilerplate.Core.csproj" />
+    <ProjectReference Include="..\HappyCode.JobNexus.Core\HappyCode.JobNexus.Core.csproj" />
   </ItemGroup>
 </Project>

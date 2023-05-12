@@ -1,4 +1,4 @@
-namespace HappyCode.NetCoreBoilerplate.Core
+namespace HappyCode.JobNexus.Core
 {
     public static class FeatureFlags
     {

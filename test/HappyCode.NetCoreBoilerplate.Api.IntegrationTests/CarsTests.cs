@@ -3,13 +3,13 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using FluentAssertions;
-using HappyCode.NetCoreBoilerplate.Api.IntegrationTests.Extensions;
-using HappyCode.NetCoreBoilerplate.Api.IntegrationTests.Infrastructure;
-using HappyCode.NetCoreBoilerplate.Core.Dtos;
+using HappyCode.JobNexus.Api.IntegrationTests.Extensions;
+using HappyCode.JobNexus.Api.IntegrationTests.Infrastructure;
+using HappyCode.JobNexus.Core.Dtos;
 using VerifyXunit;
 using Xunit;
 
-namespace HappyCode.NetCoreBoilerplate.Api.IntegrationTests
+namespace HappyCode.JobNexus.Api.IntegrationTests
 {
     [UsesVerify]
     [Collection(nameof(TestServerClientCollection))]

@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace HappyCode.NetCoreBoilerplate.Api
+namespace HappyCode.JobNexus.Api
 {
     public class ErrorResponse
     {

@@ -1,10 +1,10 @@
-using HappyCode.NetCoreBoilerplate.Api.BackgroundServices;
-using HappyCode.NetCoreBoilerplate.Api.Infrastructure.Configurations;
-using HappyCode.NetCoreBoilerplate.Api.Infrastructure.Filters;
-using HappyCode.NetCoreBoilerplate.Api.Infrastructure.Registrations;
-using HappyCode.NetCoreBoilerplate.Core;
-using HappyCode.NetCoreBoilerplate.Core.Registrations;
-using HappyCode.NetCoreBoilerplate.Core.Settings;
+using HappyCode.JobNexus.Api.BackgroundServices;
+using HappyCode.JobNexus.Api.Infrastructure.Configurations;
+using HappyCode.JobNexus.Api.Infrastructure.Filters;
+using HappyCode.JobNexus.Api.Infrastructure.Registrations;
+using HappyCode.JobNexus.Core;
+using HappyCode.JobNexus.Core.Registrations;
+using HappyCode.JobNexus.Core.Settings;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
@@ -17,7 +17,7 @@ using Microsoft.FeatureManagement;
 using Microsoft.FeatureManagement.FeatureFilters;
 using Swashbuckle.AspNetCore.SwaggerUI;
 
-namespace HappyCode.NetCoreBoilerplate.Api
+namespace HappyCode.JobNexus.Api
 {
     public class Startup
     {

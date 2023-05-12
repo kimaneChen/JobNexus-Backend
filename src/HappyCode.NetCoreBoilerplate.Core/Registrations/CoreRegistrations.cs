@@ -1,8 +1,8 @@
-using HappyCode.NetCoreBoilerplate.Core.Repositories;
-using HappyCode.NetCoreBoilerplate.Core.Services;
+using HappyCode.JobNexus.Core.Repositories;
+using HappyCode.JobNexus.Core.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace HappyCode.NetCoreBoilerplate.Core.Registrations
+namespace HappyCode.JobNexus.Core.Registrations
 {
     public static class CoreRegistrations
     {

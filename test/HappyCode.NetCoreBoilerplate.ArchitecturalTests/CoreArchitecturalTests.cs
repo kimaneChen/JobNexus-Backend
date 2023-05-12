@@ -1,10 +1,10 @@
 using System;
-using HappyCode.NetCoreBoilerplate.Core;
+using HappyCode.JobNexus.Core;
 using Microsoft.EntityFrameworkCore;
 using NetArchTest.Rules;
 using Xunit;
 
-namespace HappyCode.NetCoreBoilerplate.ArchitecturalTests
+namespace HappyCode.JobNexus.ArchitecturalTests
 {
     public class CoreArchitecturalTests
     {
@@ -26,9 +26,9 @@ namespace HappyCode.NetCoreBoilerplate.ArchitecturalTests
         {
             var result = _coreTypes
                 .That()
-                .ResideInNamespace("HappyCode.NetCoreBoilerplate.Core.Repositories")
+                .ResideInNamespace("HappyCode.JobNexus.Core.Repositories")
                 .ShouldNot()
-                .HaveDependencyOn("HappyCode.NetCoreBoilerplate.Core.Services")
+                .HaveDependencyOn("HappyCode.JobNexus.Core.Services")
                 .GetResult();
 
             Assert.True(result.IsSuccessful, $"Failing Types: {string.Join("; ", result.FailingTypeNames ?? Array.Empty<string>())}");
@@ -39,7 +39,7 @@ namespace HappyCode.NetCoreBoilerplate.ArchitecturalTests
         {
             var result = _coreTypes
                 .That()
-                .ResideInNamespace("HappyCode.NetCoreBoilerplate.Core.Repositories")
+                .ResideInNamespace("HappyCode.JobNexus.Core.Repositories")
                 .And()
                 .AreNotAbstract()
                 .Should()
@@ -54,7 +54,7 @@ namespace HappyCode.NetCoreBoilerplate.ArchitecturalTests
         {
             var result = _coreTypes
                 .That()
-                .ResideInNamespace("HappyCode.NetCoreBoilerplate.Core.Services")
+                .ResideInNamespace("HappyCode.JobNexus.Core.Services")
                 .And()
                 .AreNotAbstract()
                 .Should()
@@ -69,7 +69,7 @@ namespace HappyCode.NetCoreBoilerplate.ArchitecturalTests
         {
             var result = _coreTypes
                 .That()
-                .ResideInNamespace("HappyCode.NetCoreBoilerplate.Core.Dtos")
+                .ResideInNamespace("HappyCode.JobNexus.Core.Dtos")
                 .Should()
                 .HaveNameEndingWith("Dto")
                 .GetResult();

@@ -1,10 +1,10 @@
 using System;
-using HappyCode.NetCoreBoilerplate.Api;
-using HappyCode.NetCoreBoilerplate.Api.Controllers;
+using HappyCode.JobNexus.Api;
+using HappyCode.JobNexus.Api.Controllers;
 using NetArchTest.Rules;
 using Xunit;
 
-namespace HappyCode.NetCoreBoilerplate.ArchitecturalTests
+namespace HappyCode.JobNexus.ArchitecturalTests
 {
     public class ApiArchitecturalTests
     {
@@ -15,7 +15,7 @@ namespace HappyCode.NetCoreBoilerplate.ArchitecturalTests
         {
             var result = _apiTypes
                 .That()
-                .ResideInNamespace("HappyCode.NetCoreBoilerplate.Api.Controllers")
+                .ResideInNamespace("HappyCode.JobNexus.Api.Controllers")
                 .And()
                 .AreNotAbstract()
                 .Should()
@@ -30,7 +30,7 @@ namespace HappyCode.NetCoreBoilerplate.ArchitecturalTests
         {
             var result = _apiTypes
                 .That()
-                .ResideInNamespace("HappyCode.NetCoreBoilerplate.Api.Controllers")
+                .ResideInNamespace("HappyCode.JobNexus.Api.Controllers")
                 .And()
                 .AreNotAbstract()
                 .Should()

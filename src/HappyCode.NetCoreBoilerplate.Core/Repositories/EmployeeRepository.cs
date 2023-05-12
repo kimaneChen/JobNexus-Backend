@@ -1,12 +1,12 @@
 using System.Threading;
 using System.Threading.Tasks;
-using HappyCode.NetCoreBoilerplate.Core.Models;
+using HappyCode.JobNexus.Core.Models;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using HappyCode.NetCoreBoilerplate.Core.Dtos;
-using HappyCode.NetCoreBoilerplate.Core.Extensions;
+using HappyCode.JobNexus.Core.Dtos;
+using HappyCode.JobNexus.Core.Extensions;
 
-namespace HappyCode.NetCoreBoilerplate.Core.Repositories
+namespace HappyCode.JobNexus.Core.Repositories
 {
     public interface IEmployeeRepository
     {

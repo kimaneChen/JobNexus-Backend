@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace HappyCode.NetCoreBoilerplate.Core.Dtos
+namespace HappyCode.JobNexus.Core.Dtos
 {
     public class EmployeePutDto
     {

@@ -2,7 +2,7 @@ using Microsoft.Extensions.Configuration;
 using Serilog;
 using Serilog.Core;
 
-namespace HappyCode.NetCoreBoilerplate.Api.Infrastructure.Configurations
+namespace HappyCode.JobNexus.Api.Infrastructure.Configurations
 {
     public static class SerilogConfigurator
     {

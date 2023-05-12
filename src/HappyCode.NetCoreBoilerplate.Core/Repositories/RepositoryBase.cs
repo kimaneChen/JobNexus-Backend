@@ -1,4 +1,4 @@
-namespace HappyCode.NetCoreBoilerplate.Core.Repositories
+namespace HappyCode.JobNexus.Core.Repositories
 {
     public abstract class RepositoryBase<TEntity>
         where TEntity : class

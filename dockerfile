@@ -12,14 +12,14 @@ RUN for projectFile in $(ls *.csproj); \
 ENV DOTNET_NOLOGO=true
 ENV DOTNET_CLI_TELEMETRY_OPTOUT=true
 
-RUN dotnet restore /work/HappyCode.NetCoreBoilerplate.Api/HappyCode.NetCoreBoilerplate.Api.csproj
+RUN dotnet restore /work/HappyCode.JobNexus.Api/HappyCode.JobNexus.Api.csproj
 
 COPY src .
 
 # --------------
 
 FROM build AS publish
-WORKDIR /work/HappyCode.NetCoreBoilerplate.Api
+WORKDIR /work/HappyCode.JobNexus.Api
 
 ENV DOTNET_NOLOGO=true
 ENV DOTNET_CLI_TELEMETRY_OPTOUT=true
@@ -38,4 +38,4 @@ ENV DOTNET_CLI_TELEMETRY_OPTOUT=true
 HEALTHCHECK --interval=5m --timeout=3s --start-period=10s --retries=1 \
   CMD curl --fail http://localhost:80/health || exit 1
 
-ENTRYPOINT ["dotnet", "HappyCode.NetCoreBoilerplate.Api.dll"]
+ENTRYPOINT ["dotnet", "HappyCode.JobNexus.Api.dll"]

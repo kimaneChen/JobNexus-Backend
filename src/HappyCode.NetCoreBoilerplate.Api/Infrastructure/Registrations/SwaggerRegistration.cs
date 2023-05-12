@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace HappyCode.NetCoreBoilerplate.Api.Infrastructure.Registrations
+namespace HappyCode.JobNexus.Api.Infrastructure.Registrations
 {
     public static class SwaggerRegistration
     {
@@ -20,13 +20,13 @@ namespace HappyCode.NetCoreBoilerplate.Api.Infrastructure.Registrations
                     Description = $"ApiKey {secretKey}",
                     Contact = new OpenApiContact
                     {
-                        Name = "Łukasz Kurzyniec",
-                        Url = new Uri("https://kurzyniec.pl/"),
+                        Name = "Kimane Chen",
+                        Url = new Uri("https://blog.easy-march.com"),
                     }
                 });
 
                 swaggerOptions.OrderActionsBy(x => x.RelativePath);
-                swaggerOptions.IncludeXmlComments(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "HappyCode.NetCoreBoilerplate.Api.xml"));
+                swaggerOptions.IncludeXmlComments(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "HappyCode.JobNexus.Api.xml"));
 
                 swaggerOptions.AddSecurityDefinition("ApiKey", new OpenApiSecurityScheme
                 {

@@ -2,7 +2,7 @@ using System;
 using System.Data;
 using DbUp.Engine;
 
-namespace HappyCode.NetCoreBoilerplate.Db.Scripts.Code
+namespace HappyCode.JobNexus.Db.Scripts.Code
 {
     public class S002_ModifySomeRows : IScript
     {
