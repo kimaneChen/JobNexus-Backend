@@ -4,7 +4,7 @@ Job Publish and Seek API in `.NET 7`
 
 | GitHub        | Codecov       |
 |:-------------:|:-------------:|
-| [![Build & Test](https://github.com/kimaneChen/JobNexus-Backend/actions/workflows/dotnetcore.yml/badge.svg?branch=master)](https://github.com/kimaneChen/JobNexus-Backend/actions/workflows/dotnetcore.yml) | [![codecov](https://codecov.io/gh/lkurzyniec/netcore-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/lkurzyniec/netcore-boilerplate) |
+| [![Build & Test](https://github.com/kimaneChen/JobNexus-Backend/actions/workflows/dotnetcore.yml/badge.svg?branch=master)](https://github.com/kimaneChen/JobNexus-Backend/actions/workflows/dotnetcore.yml) | [![codecov](https://codecov.io/gh/kimaneChen/JobNexus-Backend/branch/master/graph/badge.svg?token=1NJECZSLPB)](https://codecov.io/gh/kimaneChen/JobNexus-Backend) |
 
 The Api provides the backend solutions for a Job publish and Job Seek platform.  This API is built based on [.Net Boilerplate](https://github.com/lkurzyniec/netcore-boilerplate).
 
